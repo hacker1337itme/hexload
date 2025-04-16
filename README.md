@@ -4,8 +4,8 @@ C# HEX SHELL LOADER
 Takes raw hex shellcode (e.g. msfvenom hex format) from a cmd line arg, text file, or URL download and runs it.
 Build
 
-    For 32-bit shellcode: csc -platform:x86 Hexyload.cs
-    For 64-bit shellcode: csc -platform:x64 Hexyload.cs
+    For 32-bit shellcode: csc -platform:x86 Hexload.cs
+    For 64-bit shellcode: csc -platform:x64 Hexload.cs
 
 Generate Shellcode
 
