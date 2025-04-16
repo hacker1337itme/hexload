@@ -118,9 +118,9 @@ namespace Hexload
                 }
 
                 input = Regex.Replace(input, @"\s+", string.Empty);
-                byte[] hexy = Str2ByteArray(input);
+                byte[] hexr = Str2ByteArray(input);
 
-                if (!IsShellcodeLengthValid(hexy.Length))
+                if (!IsShellcodeLengthValid(hexr.Length))
                 {
                     Log("Shellcode length invalid.");
                     return;
