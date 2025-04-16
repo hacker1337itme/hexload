@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 using System.Diagnostics;
 using System.Security.Principal;
 
-namespace HexyRunner
+namespace Hexload
 {
     class ShellcodeExec
     {
